@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main_div">
+      <h2>HTML quiz app</h2>
+      <span class="lft">left time</span>
+      <p class="time"></p>
+      <div class="box">
+        <h4 class="question">Q1:-this is the some question?</h4>
+        <div class="set_ans">
+          <input type="radio" name="option" class="answer" id="ans1" />
+          <label for="ans1" id="option1">this is the frist option.</label>
+        </div>
+
+        <div class="set_ans">
+          <input type="radio" name="option" class="answer" id="ans2" />
+          <label for="ans2" id="option2">this is the second option.</label>
+        </div>
+        <div class="set_ans">
+          <input type="radio" name="option" class="answer" id="ans3" />
+          <label for="ans3" id="option3">this is the third option.</label>
+        </div>
+        <div class="set_ans">
+          <input type="radio" name="option" class="answer" id="ans4" />
+          <label for="ans4" id="option4">this is the fourth option.</label>
+        </div>
+        <button class="sub" type="button">submit</button>
+      </div>
+      <div class="score">
+        <p class="rate">score</p>
+        <button class="reload" onclick="location.reload()">try again</button>
+    </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
